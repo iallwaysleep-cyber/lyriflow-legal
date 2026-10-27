@@ -1,49 +1,511 @@
 <!DOCTYPE html>
-<html>
-<body style="font-family: sans-serif; padding: 20px;">
-    <h1>Legal Information</h1>
-    
-    <h2>Privacy Policy</h2>
-    <p>Privacy Policy
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-Last updated: July 16, 2026
+    <title>LyriFlow | Privacy Policy and Terms of Service</title>
 
-LyriFlow ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how your information is handled when you use the LyriFlow mobile application.
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-1. Information We Collect
-We do not store your personal information on our own servers. Voice-to-text data is processed through your device's native system services. When you use our translation feature, your text is sent securely to Google Translate to perform the requested service.
+        body {
+            margin: 0;
+            background: #f5f5f5;
+            color: #212121;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.7;
+        }
 
-2. How We Use Information
-Information is used solely to facilitate the translation of lyrics and poetry as requested by you, the user. We do not sell or share your data with third parties for marketing purposes.
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 32px 20px 60px;
+        }
 
-3. Security
-We implement reasonable security measures to protect your data. However, please note that no method of transmission over the internet is 100% secure.
+        header {
+            margin-bottom: 28px;
+        }
 
-4. Changes to This Policy
-We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
-    
-    <hr>
-    
-    <h2>Terms of Service</h2>
-    <p>Terms of Service
+        h1,
+        h2,
+        h3 {
+            line-height: 1.3;
+        }
 
-Last updated: July 16, 2026
+        h1,
+        h2 {
+            color: #3700b3;
+        }
 
-By downloading or using the LyriFlow mobile application, you agree to these Terms of Service. If you do not agree, please do not use our services.
+        h1 {
+            margin-bottom: 8px;
+        }
 
-1. Use of Service
-LyriFlow is provided for personal, non-commercial use. You agree not to use the app for any illegal or unauthorized purpose.
+        h2 {
+            margin-top: 0;
+        }
 
-2. Intellectual Property
-LyriFlow does not claim ownership of the lyrics or poems you input. You are responsible for ensuring that you have the right to translate and use the content you submit.
+        h3 {
+            margin-top: 26px;
+            font-size: 1.1rem;
+        }
 
-3. Third-Party Services
-Our app utilizes third-party APIs (such as Google Translate). We are not responsible for the availability, accuracy, or content of these third-party services.
+        a {
+            color: #3700b3;
+            overflow-wrap: anywhere;
+        }
 
-4. Limitation of Liability
-LyriFlow is provided "as is" without warranties of any kind. We shall not be liable for any damages arising out of the use or inability to use our application.
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 20px;
+        }
 
-5. Termination
-We reserve the right to terminate or suspend access to our application immediately, without prior notice, for any conduct that we believe violates these Terms.</p>
+        nav a {
+            padding: 10px 16px;
+            background: #3700b3;
+            color: #ffffff;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+
+        nav a:last-child {
+            background: #03dac6;
+            color: #000000;
+        }
+
+        section {
+            margin-bottom: 24px;
+            padding: 24px;
+            background: #ffffff;
+            border-radius: 12px;
+        }
+
+        .updated {
+            color: #555555;
+            font-size: 0.95rem;
+        }
+
+        footer {
+            color: #555555;
+            font-size: 0.95rem;
+        }
+
+        @media (max-width: 480px) {
+            main {
+                padding: 20px 12px 40px;
+            }
+
+            section {
+                padding: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<main>
+    <header>
+        <h1>LyriFlow Legal Information</h1>
+
+        <p>
+            Privacy information and terms for the LyriFlow
+            mobile application.
+        </p>
+
+        <nav aria-label="Legal page navigation">
+            <a href="#privacy-policy">Privacy Policy</a>
+            <a href="#terms-of-service">Terms of Service</a>
+            <a href="mailto:lyriflowapp@gmail.com">Contact Support</a>
+        </nav>
+    </header>
+
+    <section id="privacy-policy">
+        <h2>Privacy Policy</h2>
+        <p class="updated">Last updated: October 27, 2026</p>
+
+        <h3>1. About This Policy</h3>
+        <p>
+            This Privacy Policy explains how LyriFlow ("we," "our,"
+            or "us") handles information when you use the app's
+            translation features, advertising, external links,
+            and support services.
+        </p>
+        <p>
+            For privacy questions or support, contact
+            <a href="mailto:lyriflowapp@gmail.com">
+                lyriflowapp@gmail.com
+            </a>.
+        </p>
+
+        <h3>2. Text and Translations</h3>
+        <p>
+            LyriFlow uses Google ML Kit to translate text on your
+            device. This translation feature does not send the
+            text you enter or the resulting translation to
+            Google's servers for translation.
+        </p>
+        <p>
+            The current feature treats input text as English
+            and translates it into the selected supported language.
+            An internet connection is required to download
+            necessary language models. Downloads use device
+            storage and may use mobile data.
+        </p>
+        <p>
+            The current implementation does not send your
+            translation text to a developer-operated server or
+            provide a developer-operated translation-history
+            account. Text may remain visible while you use the app.
+            Avoid entering unnecessary sensitive information.
+        </p>
+
+        <h3>3. ML Kit Technical Information</h3>
+        <p>
+            On-device translation does not mean that the entire
+            app operates without network communication.
+            ML Kit communicates with Google for model downloads
+            and may report technical and usage information.
+        </p>
+        <p>
+            Depending on the service and configuration, this can
+            include device and app information, installation
+            identifiers, performance metrics, input and output
+            sizes, and configured translation languages.
+            This technical information is separate from the
+            actual text and translation results.
+        </p>
+        <p>
+            Learn more:
+            <a href="https://developers.google.com/ml-kit/terms">
+                ML Kit Terms and Privacy
+            </a>.
+        </p>
+
+        <h3>4. Advertising</h3>
+        <p>
+            LyriFlow uses Google AdMob to display advertisements.
+            Google's advertising services may process device
+            identifiers, IP addresses, app and advertising
+            interactions, and diagnostic information.
+        </p>
+        <p>
+            This information may be used to deliver and measure
+            advertising, prevent fraud, and maintain service
+            reliability. An IP address may be used to estimate
+            general location; this is different from requesting
+            precise GPS location.
+        </p>
+        <p>
+            Advertising behavior depends on factors including
+            your region, device settings, consent choices, and
+            the app's advertising configuration.
+        </p>
+
+        <h3>5. Analytics</h3>
+        <p>
+            LyriFlow includes Google Analytics for Firebase.
+            When analytics collection is enabled, it may process
+            app interactions, session information, app and device
+            characteristics, and app-instance or other identifiers
+            to help understand usage and improve the app.
+        </p>
+        <p>
+            The current translation code does not intentionally
+            include entered text or translation results in custom
+            analytics events.
+        </p>
+        <p>
+            Analytics processing and retention depend on the
+            settings enabled for LyriFlow's Firebase and
+            Google Analytics services.
+        </p>
+
+        <h3>6. Support Communications</h3>
+        <p>
+            If you contact us by email, we receive your email
+            address, message, and any attachments you provide.
+            We use these to respond, investigate problems,
+            and handle privacy requests.
+        </p>
+        <p>
+            Do not send passwords, payment information, or other
+            unnecessary sensitive information.
+        </p>
+
+        <h3>7. Purposes and Service Providers</h3>
+        <p>Information described in this policy is used to:</p>
+        <ul>
+            <li>Provide translation features and language models.</li>
+            <li>Display and measure advertising.</li>
+            <li>Understand usage where analytics is enabled.</li>
+            <li>Diagnose problems and improve reliability.</li>
+            <li>Respond to support and privacy requests.</li>
+            <li>Prevent fraud, abuse, and security incidents.</li>
+            <li>Meet applicable legal obligations.</li>
+        </ul>
+        <p>
+            Google provides ML Kit, AdMob, and Firebase services.
+            These services process information under their
+            applicable terms, privacy documentation, and the
+            app's configuration.
+        </p>
+        <p>
+            Information may also be disclosed where reasonably
+            necessary to comply with law, respond to valid
+            legal requests, or protect rights and safety.
+        </p>
+        <ul>
+            <li>
+                <a href="https://policies.google.com/privacy">
+                    Google Privacy Policy
+                </a>
+            </li>
+            <li>
+                <a href="https://firebase.google.com/support/privacy/">
+                    Firebase Privacy and Security
+                </a>
+            </li>
+        </ul>
+
+        <h3>8. Retention and Deletion</h3>
+        <p>
+            LyriFlow does not currently maintain a
+            developer-operated translation-history database.
+            Downloaded models may remain in local app storage.
+        </p>
+        <p>
+            Clearing app data or uninstalling the app generally
+            removes local app data. It does not automatically
+            delete information already processed by third-party
+            services.
+        </p>
+        <p>
+            We retain support correspondence as reasonably
+            necessary to address requests, maintain relevant
+            records, and meet legal obligations.
+            Third-party information is retained according to
+            the relevant service's settings and policies.
+        </p>
+        <p>
+            To request deletion of information you provided
+            directly to us, email
+            <a href="mailto:lyriflowapp@gmail.com">
+                lyriflowapp@gmail.com
+            </a>.
+            We may need information to verify your request and
+            locate relevant records. Records may be retained
+            where permitted or required by law.
+        </p>
+
+        <h3>9. Privacy Choices and Rights</h3>
+        <p>
+            Depending on your location and applicable law, you
+            may have rights concerning access, correction,
+            deletion, or other controls over personal information.
+            Contact us to submit a request.
+        </p>
+        <p>
+            Your Android device and Google services may provide
+            additional advertising and privacy controls.
+            Available options vary by device, software version,
+            and region.
+        </p>
+
+        <h3>10. Children's Privacy</h3>
+        <p>
+            If you believe a child has provided personal
+            information directly to us, contact
+            <a href="mailto:lyriflowapp@gmail.com">
+                lyriflowapp@gmail.com
+            </a>
+            so we can review the circumstances and take
+            appropriate action.
+        </p>
+
+        <h3>11. External Websites</h3>
+        <p>
+            LyriFlow may open external websites, including
+            public-domain resources and social-media profiles.
+            These sites have their own terms and privacy
+            practices. This policy does not govern information
+            you provide to them.
+        </p>
+
+        <h3>12. Security and International Processing</h3>
+        <p>
+            We take reasonable measures appropriate to information
+            we handle, but no app, storage system, or transmission
+            method is guaranteed completely secure.
+        </p>
+        <p>
+            Third-party providers may process information outside
+            your country under their applicable privacy terms
+            and safeguards.
+        </p>
+
+        <h3>13. Policy Updates</h3>
+        <p>
+            We may update this policy as features, providers,
+            or legal requirements change. Updates will appear
+            on this page with a revised date. Where required,
+            we will provide additional notice or obtain consent.
+        </p>
+    </section>
+
+    <section id="terms-of-service">
+        <h2>Terms of Service</h2>
+        <p class="updated">Last updated: October 27, 2026</p>
+
+        <h3>1. Scope</h3>
+        <p>
+            These Terms govern your use of LyriFlow.
+            If you do not agree, do not use the app.
+            These Terms do not remove rights that cannot
+            be excluded under applicable law.
+        </p>
+
+        <h3>2. The Service</h3>
+        <p>
+            LyriFlow provides automated text translation and
+            links to external resources. The current translation
+            feature uses English input and selected target
+            languages. Features and supported languages may change.
+        </p>
+        <p>
+            Model downloads require internet access and device
+            storage. Your network provider may charge for data use.
+        </p>
+
+        <h3>3. Your Content and Permissions</h3>
+        <p>
+            You are responsible for having the rights necessary
+            to enter, translate, copy, publish, or otherwise use
+            text submitted to the app.
+        </p>
+        <p>
+            Appropriate material may include your own writing,
+            works in the public domain in the relevant jurisdiction,
+            or content for which you have sufficient permission
+            or another lawful basis.
+        </p>
+        <p>
+            Online availability does not by itself establish
+            permission to reuse a work. Rights can differ by
+            country, edition, arrangement, recording, or translation.
+            LyriFlow does not grant rights to third-party content.
+        </p>
+        <p>
+            These Terms do not transfer ownership of your
+            original content to LyriFlow.
+        </p>
+
+        <h3>4. Translation Limitations</h3>
+        <p>
+            Automated translations may contain errors, omissions,
+            or misleading wording. They may not preserve rhyme,
+            rhythm, cultural meaning, tone, or literary style.
+        </p>
+        <p>
+            Review translations before relying on or publishing
+            them. Do not use LyriFlow as a substitute for qualified
+            medical, legal, financial, safety, or other
+            professional advice.
+        </p>
+
+        <h3>5. Acceptable Use</h3>
+        <p>You must not use the app to:</p>
+        <ul>
+            <li>Violate applicable law or the rights of others.</li>
+            <li>Infringe intellectual-property rights.</li>
+            <li>Distribute malware or interfere with services.</li>
+            <li>Attempt unauthorized access to systems.</li>
+            <li>Manipulate advertising impressions or clicks.</li>
+            <li>
+                Circumvent technical restrictions in violation
+                of applicable law.
+            </li>
+        </ul>
+
+        <h3>6. External Resources and Services</h3>
+        <p>
+            External links are provided for convenience.
+            We do not guarantee the accuracy, availability,
+            legality, or copyright status of external material.
+        </p>
+        <p>
+            Third-party websites, advertisements, and services
+            have their own terms and privacy practices.
+            Linking to them does not mean we own or control
+            their content.
+        </p>
+
+        <h3>7. App Intellectual Property</h3>
+        <p>
+            Except for your content, third-party material, and
+            separately licensed components, rights in LyriFlow's
+            original code, branding, and design remain with
+            their respective owners.
+        </p>
+        <p>
+            You may use the app for its intended lawful purposes.
+            These Terms do not grant ownership of the app
+            or its branding.
+        </p>
+
+        <h3>8. Availability and Changes</h3>
+        <p>
+            We may update, modify, or discontinue features.
+            We do not guarantee uninterrupted availability or
+            compatibility with every device. Applicable legal
+            notice requirements and consumer protections
+            continue to apply.
+        </p>
+
+        <h3>9. Disclaimers and Liability</h3>
+        <p>
+            To the extent permitted by law, LyriFlow is provided
+            "as is" and "as available," without guarantees of
+            translation accuracy, uninterrupted operation,
+            or fitness for a particular purpose.
+        </p>
+        <p>
+            To the extent permitted by law, we are not responsible
+            for indirect or consequential losses arising from
+            use of the app.
+        </p>
+        <p>
+            Nothing in these Terms excludes or limits liability,
+            consumer guarantees, or remedies that cannot
+            lawfully be excluded or limited.
+        </p>
+
+        <h3>10. Updates to These Terms</h3>
+        <p>
+            Revised Terms will appear on this page with an
+            updated date. Where required by law, we will
+            provide notice or obtain agreement before material
+            changes take effect.
+        </p>
+
+        <h3>11. Contact</h3>
+        <p>
+            For support, privacy questions, or questions
+            about these Terms, email
+            <a href="mailto:lyriflowapp@gmail.com">
+                lyriflowapp@gmail.com
+            </a>.
+        </p>
+    </section>
+
+    <footer>
+        <p>LyriFlow — Translation for poetry and permitted text.</p>
+        <p><a href="#">Back to top</a></p>
+    </footer>
+</main>
 </body>
 </html>
